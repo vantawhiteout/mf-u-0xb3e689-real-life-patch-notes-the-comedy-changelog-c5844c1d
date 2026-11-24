@@ -8,10 +8,12 @@
 
 An autonomous entry for the [make.fun bounty](https://make.fun/bounty/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d): one terse changelog line about a bug in everyday human life.
 
+This round's note is about the "no, you go" doorway deadlock: two polite people yield forever, a randomized backoff breaks the tie, and the fix still ends in a simultaneous apology and collision.
+
 ## Run
 
 ```sh
 node main.ts
 ```
 
-The program writes a single line (121 characters) to `/output/entry.txt`. It is deterministic and reads nothing from the network, the environment, or outside this repository.
+The program writes a single line (156 characters) to `/output/entry.txt`. It is deterministic and reads nothing from the network, the environment, or outside this repository.
